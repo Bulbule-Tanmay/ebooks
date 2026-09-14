@@ -1,603 +1,1550 @@
-<!DOCTYPE html>
+<!doctype html>
 
-<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"surface-container-highest":"#e2ddd4","on-error-container":"#93000a","on-primary-fixed":"#1a1a1a","inverse-on-surface":"#f5f0e8","secondary-container":"#ffdad6","on-tertiary-fixed-variant":"#1a1a1a","surface-container-high":"#e8e3da","surface-bright":"#faf7f2","outline":"#1a1a1a","secondary-fixed-dim":"#ffb3ab","on-tertiary-fixed":"#1a1a1a","on-tertiary-container":"#1a1a1a","on-secondary-container":"#1a1a1a","surface-tint":"#1a1a1a","secondary-fixed":"#ffdad6","surface":"#f5f0e8","secondary":"#e63b2e","on-surface":"#1a1a1a","primary-fixed-dim":"#e6b800","primary-container":"#ffcc00","tertiary-fixed":"#d6e3ff","tertiary-container":"#d6e3ff","inverse-surface":"#1a1a1a","surface-container-low":"#f2ede5","on-secondary-fixed-variant":"#1a1a1a","on-tertiary":"#ffffff","tertiary-fixed-dim":"#a8c6ff","surface-container":"#eee9e0","background":"#f5f0e8","on-background":"#1a1a1a","surface-dim":"#d6d1c9","on-primary":"#ffffff","on-secondary-fixed":"#1a1a1a","surface-container-lowest":"#ffffff","on-primary-container":"#1a1a1a","on-secondary":"#1a1a1a","error-container":"#ffdad6","inverse-primary":"#f5f0e8","on-primary-fixed-variant":"#1a1a1a","primary-fixed":"#ffcc00","primary":"#1a1a1a","outline-variant":"#d0cbc3","surface-variant":"#e8e3da","on-surface-variant":"#4a4a4a","tertiary":"#0055ff","on-error":"#ffffff","error":"#cc0000"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{},"fontFamily":{"headline":["Space Grotesk"],"display":["Space Grotesk"],"body":["Inter"],"label":["Space Grotesk"]},"fontSize":{}}}}</script></head><body class="bg-background font-body text-on-surface antialiased"><header class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-md border-b-2 border-outline"><div class="h-20 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between"><a class="flex items-center gap-3 group" data-path="sales-manual" href="#"><span class="font-headline font-bold text-base md:text-lg tracking-tight uppercase text-on-surface group-hover:text-secondary transition-colors">THE INTERNSHIP CHEAT CODE <span class="text-on-surface-variant font-normal">// FIELD MANUAL</span></span></a><nav class="hidden lg:flex items-center gap-8" data-active-classes="text-on-surface font-bold"><a class="font-headline text-xs tracking-wider uppercase text-on-surface-variant hover:text-on-surface transition-colors" data-path="the-problem" href="#problem">The Problem</a><a class="font-headline text-xs tracking-wider uppercase text-on-surface-variant hover:text-on-surface transition-colors" data-path="the-system" href="#system">The System</a><a class="font-headline text-xs tracking-wider uppercase text-on-surface-variant hover:text-on-surface transition-colors" data-path="whats-inside" href="#inside">What's Inside</a><a class="font-headline text-xs tracking-wider uppercase text-on-surface-variant hover:text-on-surface transition-colors" data-path="faq" href="#faq">FAQ</a></nav><div class="flex items-center gap-4"><a class="hidden sm:inline-flex items-center justify-center bg-primary-container text-on-primary-container border-2 border-outline px-5 py-2.5 font-headline font-bold text-xs uppercase tracking-wider shadow-[3px_3px_0px_#1a1a1a] hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-[1px_1px_0px_#1a1a1a] active:translate-x-[3px] active:translate-y-[3px] active:shadow-none transition-all" data-path="checkout" href="#checkout">GET THE CHEAT CODE</a><img alt="Profile" class="w-8 h-8 rounded-full object-cover border-2 border-outline" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDRaTOYVblCiZE0-w9fXJglmktaHUQO-4MAWjn-xhxtH8pNO6X9e4m5e52yKWN8tRHGrm78sPvFWXnKhhcN36P-KMkX56TlgmpineR5sBFpubSClq6ecH3PIMJkNBDI3XlCDtkoZj_mEnTmSuqANZVhOx8mChWGZ7mJsLWn7TWeZcK3670A2gk3NQVPyPA1_ZTnqweHYdlJZ1zXYyuVrJ4CR3-XxWwP-Y_pTFc-4jmqql-D-SBzW8k"/></div></div></header><main class="w-full pt-20 bg-background"><div class="flex flex-col w-full text-on-surface bg-background select-none">
-<!-- HERO SECTION -->
-<section class="relative w-full border-b-2 border-outline bg-surface pt-12 pb-20 px-6 lg:px-12 overflow-hidden">
-<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-<!-- Text Column -->
-<div class="lg:col-span-7 flex flex-col items-start gap-6 z-10">
-<div class="inline-flex items-center gap-2 bg-primary text-on-primary px-3 py-1 font-mono text-xs tracking-widest uppercase border border-outline">
-<span class="w-2 h-2 rounded-full bg-secondary animate-ping"></span>
-<span>RESTRICTED DISTRIBUTION // FIELD MANUAL V3.4</span>
-</div>
-<h1 class="font-headline font-bold text-5xl sm:text-6xl xl:text-7xl leading-[0.95] tracking-tighter uppercase text-on-surface">
-          Stop waiting for internships. <br/>
-<span class="text-secondary underline decoration-4 underline-offset-8">Go take one.</span>
-</h1>
-<p class="font-body text-base sm:text-lg text-on-surface-variant max-w-2xl leading-relaxed">
-          How to Get an Internship — The Unethical (but 100% Legal) Way. A practical outbound system to move beyond crowded application portals, reach decision-makers, and pursue internship opportunities strategically.
-        </p>
-<div class="flex flex-col sm:flex-row items-start sm:items-center gap-4 w-full pt-2">
-<a class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-primary-container text-on-primary-container border-2 border-outline px-8 py-4 font-headline font-bold text-sm tracking-wider uppercase shadow-[4px_4px_0px_#1a1a1a] hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[2px_2px_0px_#1a1a1a] active:translate-x-[4px] active:translate-y-[4px] active:shadow-none transition-all" href="#checkout">
-<span>GET THE INTERNSHIP CHEAT CODE</span>
-<span class="material-symbols-outlined text-lg">arrow_forward</span>
-</a>
-<div class="flex items-center gap-2 font-mono text-xs text-on-surface-variant">
-<span class="material-symbols-outlined text-sm text-secondary">lock</span>
-<span>Instant Digital Download · 5 Units · 37 Tactics</span>
-</div>
-</div>
-<!-- Metric strip -->
-<div class="w-full grid grid-cols-2 sm:grid-cols-4 gap-3 pt-6 border-t border-outline-variant mt-4">
-<div class="flex flex-col">
-<span class="font-headline font-bold text-xl text-secondary">0%</span>
-<span class="font-mono text-[11px] text-on-surface-variant uppercase">ATS Gambling</span>
-</div>
-<div class="flex flex-col">
-<span class="font-headline font-bold text-xl text-on-surface">100%</span>
-<span class="font-mono text-[11px] text-on-surface-variant uppercase">Legal &amp; Ethical</span>
-</div>
-<div class="flex flex-col">
-<span class="font-headline font-bold text-xl text-primary">37</span>
-<span class="font-mono text-[11px] text-on-surface-variant uppercase">Battle Tactics</span>
-</div>
-<div class="flex flex-col">
-<span class="font-headline font-bold text-xl text-secondary">100-CO</span>
-<span class="font-mono text-[11px] text-on-surface-variant uppercase">Tracking Framework</span>
-</div>
-</div>
-</div>
-<!-- Hero Book Visual Column -->
-<div class="lg:col-span-5 flex flex-col items-center justify-center relative">
-<div class="relative w-full max-w-sm sm:max-w-md bg-inverse-surface p-4 border-2 border-outline shadow-[8px_8px_0px_#1a1a1a]">
-<div class="absolute -top-3 -right-3 bg-secondary text-white font-mono text-[10px] font-bold px-2 py-1 uppercase border border-outline tracking-wider z-20">
-            OFFICIAL MANUAL // PRINT SPEC
-          </div>
-<div class="relative w-full aspect-[3/4] overflow-hidden bg-surface-container-high border border-outline-variant flex items-center justify-center">
-<img alt="The Internship Cheat Code Field Manual Cover" class="w-full h-full object-cover object-center filter contrast-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAFz8ccLIAwU7LdBifSDbQlwjRFJ4rKfdt-lXXqI0EL-ZWk-P5T1nuSBIqcLsZ51ONiyu8pFEugSScqXBv1bybjnjSwUnjAQUWd5XctegBaUGG52SF9Ud2wOp6PRBceVJ07xxTe23GQkvkR-iEO-e49ezfKZtUOXp_2CjZLsaQ8TuvRxfF7fIgnWWQpgHeL2tUVi12ddum2oS5KEKwsot2S8xBZuz31nr-YsZH7-KD7JMXmum77vKQ"/>
-</div>
-<div class="mt-4 p-3 bg-surface-container-highest border border-outline text-on-surface flex flex-col gap-1.5">
-<div class="flex items-center justify-between font-mono text-[11px] font-bold uppercase">
-<span class="text-secondary">SYSTEM DELIVERABLE</span>
-<span class="text-on-surface-variant">SERIAL: #ICC-2025</span>
-</div>
-<p class="font-mono text-xs leading-tight text-on-surface">
-              Field Manual + 8 Outreach &amp; Referral Templates + 100-Company Tracking Framework + AI JD Deconstructor.
-            </p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- PROBLEM CONTRAST SECTION -->
-<section class="w-full border-b-2 border-outline bg-surface-container py-20 px-6 lg:px-12" id="problem">
-<div class="max-w-7xl mx-auto flex flex-col gap-12">
-<div class="flex flex-col gap-3">
-<span class="font-mono text-xs font-bold uppercase tracking-widest text-secondary">01 // THE APPLICANT TRAP</span>
-<h2 class="font-headline font-bold text-3xl sm:text-5xl uppercase tracking-tight">The Modern Application Queue is a Graveyard.</h2>
-<p class="font-body text-sm sm:text-base text-on-surface-variant max-w-2xl">Applying everywhere and praying isn't a strategy. It's a lottery ticket designed for you to lose.</p>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-<!-- Conventional Broken -->
-<div class="bg-surface-container-lowest border-2 border-outline p-6 sm:p-8 flex flex-col justify-between shadow-[4px_4px_0px_#1a1a1a]">
-<div class="flex flex-col gap-4">
-<div class="inline-flex items-center gap-2 text-error font-mono text-xs uppercase font-bold tracking-widest">
-<span class="material-symbols-outlined text-base">cancel</span>
-<span>THE BROKEN CONVENTIONAL METHOD</span>
-</div>
-<ul class="space-y-4 font-mono text-xs sm:text-sm text-on-surface-variant">
-<li class="flex items-start gap-3">
-<span class="text-error font-bold font-headline">[x]</span>
-<span>Click "Easy Apply" on LinkedIn alongside a crowded pool of similar junior applicants.</span>
-</li>
-<li class="flex items-start gap-3">
-<span class="text-error font-bold font-headline">[x]</span>
-<span>Resume hits an automated ATS keyword wall where keyword matching can limit visibility.</span>
-</li>
-<li class="flex items-start gap-3">
-<span class="text-error font-bold font-headline">[x]</span>
-<span>Sit completely ghosted for 6–8 weeks with zero feedback or insight.</span>
-</li>
-<li class="flex items-start gap-3">
-<span class="text-error font-bold font-headline">[x]</span>
-<span>Panic compounds as graduation nears, repeating the same losing lottery.</span>
-</li>
-</ul>
-</div>
-<div class="mt-8 p-3 bg-secondary-container text-on-secondary-container border border-secondary font-mono text-xs font-bold uppercase">
-            RESULT: Uncertain Visibility · Months of Wasted Effort
-          </div>
-</div>
-<!-- Cheat Code Method -->
-<div class="bg-surface border-2 border-outline p-6 sm:p-8 flex flex-col justify-between shadow-[4px_4px_0px_#ffcc00]">
-<div class="flex flex-col gap-4">
-<div class="inline-flex items-center gap-2 text-primary font-mono text-xs uppercase font-bold tracking-widest">
-<span class="material-symbols-outlined text-base text-secondary">verified</span>
-<span class="text-secondary font-bold">THE CHEAT CODE PLAYBOOK</span>
-</div>
-<ul class="space-y-4 font-mono text-xs sm:text-sm text-on-surface">
-<li class="flex items-start gap-3">
-<span class="text-secondary font-bold font-headline">[&gt;]</span>
-<span>Dissect company organizational charts and isolate high-autonomy engineering &amp; product leaders.</span>
-</li>
-<li class="flex items-start gap-3">
-<span class="text-secondary font-bold font-headline">[&gt;]</span>
-<span>Engineer undeniable proof-of-work (micro-audits, pull requests, prototype fixes) before speaking.</span>
-</li>
-<li class="flex items-start gap-3">
-<span class="text-secondary font-bold font-headline">[&gt;]</span>
-<span>Deploy high-relevance, multi-touch cold email cadences to professional addresses for founders and hiring managers.</span>
-</li>
-<li class="flex items-start gap-3">
-<span class="text-secondary font-bold font-headline">[&gt;]</span>
-<span>Propose a tailored project that can help create an opportunity before a formal role is advertised.</span>
-</li>
-</ul>
-</div>
-<div class="mt-8 p-3 bg-primary-container text-on-primary-container border border-outline font-mono text-xs font-bold uppercase">
-            RESULT: A Direct, Structured Outreach Process
-          </div>
-</div>
-</div>
-</div>
-</section>
-<!-- 5-PHASE SYSTEM SECTION -->
-<section class="w-full border-b-2 border-outline bg-surface py-20 px-6 lg:px-12" id="system">
-<div class="max-w-7xl mx-auto flex flex-col gap-12">
-<div class="flex flex-col gap-2">
-<span class="font-mono text-xs font-bold uppercase tracking-widest text-secondary">02 // THE PROTOCOL</span>
-<h2 class="font-headline font-bold text-3xl sm:text-5xl uppercase tracking-tight">The 5-Phase Acquisition Framework.</h2>
-<p class="font-body text-sm sm:text-base text-on-surface-variant max-w-xl">Every stage is designed to help you prepare, target companies, and pursue opportunities strategically.</p>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-5 gap-4">
-<!-- Step 1 -->
-<div class="border-2 border-outline bg-surface-container-low p-5 flex flex-col justify-between hover:bg-surface-container transition-colors">
-<div>
-<span class="font-headline font-bold text-4xl text-outline-variant block mb-4">01</span>
-<h3 class="font-headline font-bold text-sm uppercase tracking-wider mb-2">Build Your Weapon</h3>
-<p class="font-body text-xs text-on-surface-variant leading-relaxed">
-              Resume, LinkedIn, GitHub, and digital footprint refined for a clear initial recruiter review.
-            </p>
-</div>
-<div class="pt-6 font-mono text-[10px] text-secondary font-bold uppercase">Phase 1: Proof Base</div>
-</div>
-<!-- Step 2 -->
-<div class="border-2 border-outline bg-surface-container-low p-5 flex flex-col justify-between hover:bg-surface-container transition-colors">
-<div>
-<span class="font-headline font-bold text-4xl text-outline-variant block mb-4">02</span>
-<h3 class="font-headline font-bold text-sm uppercase tracking-wider mb-2">Find The Alpha</h3>
-<p class="font-body text-xs text-on-surface-variant leading-relaxed">
-              Target companies with relevant growth signals and connect directly with founders or team leads, including those without public internship listings.
-            </p>
-</div>
-<div class="pt-6 font-mono text-[10px] text-secondary font-bold uppercase">Phase 2: Target Recon</div>
-</div>
-<!-- Step 3 -->
-<div class="border-2 border-outline bg-surface-container-low p-5 flex flex-col justify-between hover:bg-surface-container transition-colors">
-<div>
-<span class="font-headline font-bold text-4xl text-outline-variant block mb-4">03</span>
-<h3 class="font-headline font-bold text-sm uppercase tracking-wider mb-2">Bypass The Queue</h3>
-<p class="font-body text-xs text-on-surface-variant leading-relaxed">
-              Multi-channel cold email engines, Twitter/X executive engagement, and engineered warm internal referrals.
-            </p>
-</div>
-<div class="pt-6 font-mono text-[10px] text-secondary font-bold uppercase">Phase 3: Deep Penetration</div>
-</div>
-<!-- Step 4 -->
-<div class="border-2 border-outline bg-surface-container-low p-5 flex flex-col justify-between hover:bg-surface-container transition-colors">
-<div>
-<span class="font-headline font-bold text-4xl text-outline-variant block mb-4">04</span>
-<h3 class="font-headline font-bold text-sm uppercase tracking-wider mb-2">Game The JD</h3>
-<p class="font-body text-xs text-on-surface-variant leading-relaxed">
-              Deconstruct job spec pain points via AI, shipping custom proof-of-work modules before they ask.
-            </p>
-</div>
-<div class="pt-6 font-mono text-[10px] text-secondary font-bold uppercase">Phase 4: Value Inversion</div>
-</div>
-<!-- Step 5 -->
-<div class="border-2 border-outline bg-surface-container-low p-5 flex flex-col justify-between hover:bg-surface-container transition-colors">
-<div>
-<span class="font-headline font-bold text-4xl text-outline-variant block mb-4">05</span>
-<h3 class="font-headline font-bold text-sm uppercase tracking-wider mb-2">The Attack System</h3>
-<p class="font-body text-xs text-on-surface-variant leading-relaxed">
-              The 100-company tracking method, structured follow-up cadence, and interview preparation guidance.
-            </p>
-</div>
-<div class="pt-6 font-mono text-[10px] text-secondary font-bold uppercase">Phase 5: Scale Execution</div>
-</div>
-</div>
-</div>
-</section>
-<!-- WHAT'S INSIDE / BENTO ARSENAL SECTION -->
-<section class="w-full border-b-2 border-outline bg-surface-container-low py-20 px-6 lg:px-12" id="inside">
-<div class="max-w-7xl mx-auto flex flex-col gap-12">
-<div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
-<div class="flex flex-col gap-2">
-<span class="font-mono text-xs font-bold uppercase tracking-widest text-secondary">03 // COMPLETE SPECIFICATIONS</span>
-<h2 class="font-headline font-bold text-3xl sm:text-5xl uppercase tracking-tight">Everything Included. Zero Fluff.</h2>
-</div>
-<div class="font-mono text-xs text-on-surface-variant uppercase border-b border-outline pb-1">
-          ALL-IN-ONE OPERATING SUITE
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @layer base {
+        html,
+        body {
+          margin: 0;
+          padding: 0;
+        }
+        body {
+          overscroll-behavior: none;
+        }
+        main > :first-child {
+          margin-top: 0 !important;
+        }
+        main > :last-child {
+          margin-bottom: 0 !important;
+        }
+      }
+      ::-webkit-scrollbar {
+        display: none;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "surface-container-highest": "#e2ddd4",
+              "on-error-container": "#93000a",
+              "on-primary-fixed": "#1a1a1a",
+              "inverse-on-surface": "#f5f0e8",
+              "secondary-container": "#ffdad6",
+              "on-tertiary-fixed-variant": "#1a1a1a",
+              "surface-container-high": "#e8e3da",
+              "surface-bright": "#faf7f2",
+              outline: "#1a1a1a",
+              "secondary-fixed-dim": "#ffb3ab",
+              "on-tertiary-fixed": "#1a1a1a",
+              "on-tertiary-container": "#1a1a1a",
+              "on-secondary-container": "#1a1a1a",
+              "surface-tint": "#1a1a1a",
+              "secondary-fixed": "#ffdad6",
+              surface: "#f5f0e8",
+              secondary: "#e63b2e",
+              "on-surface": "#1a1a1a",
+              "primary-fixed-dim": "#e6b800",
+              "primary-container": "#ffcc00",
+              "tertiary-fixed": "#d6e3ff",
+              "tertiary-container": "#d6e3ff",
+              "inverse-surface": "#1a1a1a",
+              "surface-container-low": "#f2ede5",
+              "on-secondary-fixed-variant": "#1a1a1a",
+              "on-tertiary": "#ffffff",
+              "tertiary-fixed-dim": "#a8c6ff",
+              "surface-container": "#eee9e0",
+              background: "#f5f0e8",
+              "on-background": "#1a1a1a",
+              "surface-dim": "#d6d1c9",
+              "on-primary": "#ffffff",
+              "on-secondary-fixed": "#1a1a1a",
+              "surface-container-lowest": "#ffffff",
+              "on-primary-container": "#1a1a1a",
+              "on-secondary": "#1a1a1a",
+              "error-container": "#ffdad6",
+              "inverse-primary": "#f5f0e8",
+              "on-primary-fixed-variant": "#1a1a1a",
+              "primary-fixed": "#ffcc00",
+              primary: "#1a1a1a",
+              "outline-variant": "#d0cbc3",
+              "surface-variant": "#e8e3da",
+              "on-surface-variant": "#4a4a4a",
+              tertiary: "#0055ff",
+              "on-error": "#ffffff",
+              error: "#cc0000",
+            },
+            borderRadius: {
+              DEFAULT: "0.125rem",
+              lg: "0.25rem",
+              xl: "0.5rem",
+              full: "0.75rem",
+            },
+            spacing: {},
+            fontFamily: {
+              headline: ["Space Grotesk"],
+              display: ["Space Grotesk"],
+              body: ["Inter"],
+              label: ["Space Grotesk"],
+            },
+            fontSize: {},
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-background font-body text-on-surface antialiased">
+    <header
+      class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-md border-b-2 border-outline"
+    >
+      <div
+        class="h-20 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between"
+      >
+        <a
+          class="flex items-center gap-3 group"
+          data-path="sales-manual"
+          href="#"
+          ><span
+            class="font-headline font-bold text-base md:text-lg tracking-tight uppercase text-on-surface group-hover:text-secondary transition-colors"
+            >THE INTERNSHIP CHEAT CODE
+            <span class="text-on-surface-variant font-normal"
+              >// FIELD MANUAL</span
+            ></span
+          ></a
+        >
+        <nav
+          class="hidden lg:flex items-center gap-8"
+          data-active-classes="text-on-surface font-bold"
+        >
+          <a
+            class="font-headline text-xs tracking-wider uppercase text-on-surface-variant hover:text-on-surface transition-colors"
+            data-path="the-problem"
+            href="#problem"
+            >The Problem</a
+          ><a
+            class="font-headline text-xs tracking-wider uppercase text-on-surface-variant hover:text-on-surface transition-colors"
+            data-path="the-system"
+            href="#system"
+            >The System</a
+          ><a
+            class="font-headline text-xs tracking-wider uppercase text-on-surface-variant hover:text-on-surface transition-colors"
+            data-path="whats-inside"
+            href="#inside"
+            >What's Inside</a
+          ><a
+            class="font-headline text-xs tracking-wider uppercase text-on-surface-variant hover:text-on-surface transition-colors"
+            data-path="faq"
+            href="#faq"
+            >FAQ</a
+          >
+        </nav>
+        <div class="flex items-center gap-4">
+          <a
+            class="hidden sm:inline-flex items-center justify-center bg-primary-container text-on-primary-container border-2 border-outline px-5 py-2.5 font-headline font-bold text-xs uppercase tracking-wider shadow-[3px_3px_0px_#1a1a1a] hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-[1px_1px_0px_#1a1a1a] active:translate-x-[3px] active:translate-y-[3px] active:shadow-none transition-all"
+            data-path="checkout"
+            href="#checkout"
+            >GET THE CHEAT CODE</a
+          ><img
+            alt="Profile"
+            class="w-8 h-8 rounded-full object-cover border-2 border-outline"
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDRaTOYVblCiZE0-w9fXJglmktaHUQO-4MAWjn-xhxtH8pNO6X9e4m5e52yKWN8tRHGrm78sPvFWXnKhhcN36P-KMkX56TlgmpineR5sBFpubSClq6ecH3PIMJkNBDI3XlCDtkoZj_mEnTmSuqANZVhOx8mChWGZ7mJsLWn7TWeZcK3670A2gk3NQVPyPA1_ZTnqweHYdlJZ1zXYyuVrJ4CR3-XxWwP-Y_pTFc-4jmqql-D-SBzW8k"
+          />
         </div>
-</div>
-<!-- Bento Grid -->
-<div class="grid grid-cols-1 md:grid-cols-12 gap-6">
-<!-- 5 Units -->
-<div class="md:col-span-8 bg-surface border-2 border-outline p-6 sm:p-8 flex flex-col justify-between shadow-[4px_4px_0px_#1a1a1a]">
-<div>
-<span class="font-mono text-xs text-secondary font-bold uppercase tracking-wider block mb-2">CORE PLAYBOOK</span>
-<h3 class="font-headline font-bold text-2xl uppercase mb-3">5 Comprehensive Core Units</h3>
-<p class="font-body text-sm text-on-surface-variant leading-relaxed mb-6">
-              Dense, tactical documentation containing line-by-line tactics, organizational charts, email templates, teardowns, and interview objection destruction scripts. No fluff, no motivation speeches.
-            </p>
-<div class="grid grid-cols-1 sm:grid-cols-2 gap-3 font-mono text-xs text-on-surface">
-<div class="p-2.5 bg-surface-container border border-outline flex items-center gap-2">
-<span class="w-1.5 h-1.5 bg-secondary"></span>
-<span>Unit 1: The Tactical Weapon Setup</span>
-</div>
-<div class="p-2.5 bg-surface-container border border-outline flex items-center gap-2">
-<span class="w-1.5 h-1.5 bg-secondary"></span>
-<span>Unit 2: Stealth Company Sourcing</span>
-</div>
-<div class="p-2.5 bg-surface-container border border-outline flex items-center gap-2">
-<span class="w-1.5 h-1.5 bg-secondary"></span>
-<span>Unit 3: Executive Inbox Penetration</span>
-</div>
-<div class="p-2.5 bg-surface-container border border-outline flex items-center gap-2">
-<span class="w-1.5 h-1.5 bg-secondary"></span>
-<span>Unit 4: Engineering The Pre-Hire Proof</span>
-</div>
-</div>
-</div>
-<div class="mt-6 pt-4 border-t border-outline-variant font-mono text-xs text-on-surface-variant flex items-center justify-between">
-<span>FORMAT: PDF FIELD MANUAL</span>
-<span class="text-secondary font-bold">INCLUDED</span>
-</div>
-</div>
-<!-- 37 Tactics Card -->
-<div class="md:col-span-4 bg-primary text-on-primary border-2 border-outline p-6 sm:p-8 flex flex-col justify-between shadow-[4px_4px_0px_#e63b2e]">
-<div>
-<span class="font-mono text-xs text-primary-container font-bold uppercase tracking-wider block mb-2">FIELD MANUAL</span>
-<h3 class="font-headline font-bold text-2xl uppercase mb-3">37 Battle Tactics</h3>
-<p class="font-body text-xs text-surface-container-highest leading-relaxed mb-4">
-              Discrete, granular playbooks for practical situations: follow-up cadence timing, handling "we have no open budget", and preparing for internship conversations.
-            </p>
-</div>
-<div class="p-3 bg-inverse-surface/40 border border-neutral-700 font-mono text-xs text-secondary-fixed">
-            Practical guidance for researching companies, demonstrating your skills, and reaching decision-makers.
-          </div>
-</div>
-<!-- Copy-Paste Arsenal -->
-<div class="md:col-span-4 bg-surface border-2 border-outline p-6 flex flex-col justify-between shadow-[4px_4px_0px_#1a1a1a]">
-<div>
-<span class="font-mono text-xs text-secondary font-bold uppercase block mb-1">SWIPE FILE</span>
-<h4 class="font-headline font-bold text-lg uppercase mb-2">8 Outreach &amp; Referral Templates</h4>
-<p class="font-body text-xs text-on-surface-variant leading-relaxed">
-              Practical templates for cold email, LinkedIn outreach, follow-ups, and referral requests.
-            </p>
-</div>
-<div class="mt-4 font-mono text-[11px] text-on-surface-variant uppercase">Includes follow-up intervals &amp; subject lines</div>
-</div>
-<!-- AI Prompt Vault -->
-<div class="md:col-span-4 bg-surface border-2 border-outline p-6 flex flex-col justify-between shadow-[4px_4px_0px_#1a1a1a]">
-<div>
-<span class="font-mono text-xs text-tertiary font-bold uppercase block mb-1">AI AUTOMATION</span>
-<h4 class="font-headline font-bold text-lg uppercase mb-2">The JD Deconstructor Prompts</h4>
-<p class="font-body text-xs text-on-surface-variant leading-relaxed">
-              Custom-engineered system prompts for ChatGPT &amp; Claude that extract hidden founder pain points and write tailored proof proposals in minutes.
-            </p>
-</div>
-<div class="mt-4 font-mono text-[11px] text-on-surface-variant uppercase">Pre-calibrated prompt chains</div>
-</div>
-<!-- 100-Company Tracking Framework -->
-<div class="md:col-span-4 bg-surface border-2 border-outline p-6 flex flex-col justify-between shadow-[4px_4px_0px_#1a1a1a]">
-<div>
-<span class="font-mono text-xs text-secondary font-bold uppercase block mb-1">WORKFLOW ARCHITECTURE</span>
-<h4 class="font-headline font-bold text-lg uppercase mb-2">The 100-Company Tracking Framework</h4>
-<p class="font-body text-xs text-on-surface-variant leading-relaxed">
-              A 100-company tracking framework you can recreate in Google Sheets or Excel to organize targets, outreach, follow-ups, and interview progress.
-            </p>
-</div>
-<div class="mt-4 font-mono text-[11px] text-on-surface-variant uppercase">Recreate in Google Sheets or Excel</div>
-</div>
-</div>
-</div>
-</section>
-<!-- SAMPLE TACTICS PREVIEW -->
-<section class="w-full border-b-2 border-outline bg-surface py-20 px-6 lg:px-12">
-<div class="max-w-7xl mx-auto flex flex-col gap-12">
-<div class="flex flex-col gap-2">
-<span class="font-mono text-xs font-bold uppercase tracking-widest text-secondary">04 // TACTICAL PREVIEWS</span>
-<h2 class="font-headline font-bold text-3xl sm:text-5xl uppercase tracking-tight">Declassified Tactics: A Look Inside.</h2>
-<p class="font-body text-sm sm:text-base text-on-surface-variant max-w-xl">Every tactic is stripped of fluff. Just raw mechanics, tactical context, and execution steps.</p>
-</div>
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-<!-- Tactic 07 -->
-<div class="border-2 border-outline bg-surface-container-lowest p-6 flex flex-col justify-between relative shadow-[4px_4px_0px_#1a1a1a]">
-<div class="flex flex-col gap-3">
-<span class="font-mono text-xs font-bold text-secondary">TACTIC #07</span>
-<h3 class="font-headline font-bold text-lg uppercase leading-snug">The 100-Company Method</h3>
-<p class="font-body text-xs text-on-surface-variant leading-relaxed">
-              How company-first targeting can uncover relevant organizations and help you identify the right people to contact.
-            </p>
-</div>
-<div class="mt-6 pt-3 border-t border-outline-variant font-mono text-[10px] text-on-surface-variant uppercase">
-            UNIT 2 // INCLUDED
-          </div>
-</div>
-<!-- Tactic 14 -->
-<div class="border-2 border-outline bg-surface-container-lowest p-6 flex flex-col justify-between relative shadow-[4px_4px_0px_#1a1a1a]">
-<div class="flex flex-col gap-3">
-<span class="font-mono text-xs font-bold text-secondary">TACTIC #14</span>
-<h3 class="font-headline font-bold text-lg uppercase leading-snug">The Company-First Inversion</h3>
-<p class="font-body text-xs text-on-surface-variant leading-relaxed">
-              How pitching a bespoke 3-slide teardown or prototype before a formal role is advertised can help you stand out with relevant proof of work.
-            </p>
-</div>
-<div class="mt-6 pt-3 border-t border-outline-variant font-mono text-[10px] text-on-surface-variant uppercase">
-            UNIT 4 // INCLUDED
-          </div>
-</div>
-<!-- Tactic 22 -->
-<div class="border-2 border-outline bg-surface-container-lowest p-6 flex flex-col justify-between relative shadow-[4px_4px_0px_#1a1a1a]">
-<div class="flex flex-col gap-3">
-<span class="font-mono text-xs font-bold text-secondary">TACTIC #22</span>
-<h3 class="font-headline font-bold text-lg uppercase leading-snug">The Three-Touch Follow-Up</h3>
-<p class="font-body text-xs text-on-surface-variant leading-relaxed">
-              A structured follow-up cadence for reconnecting with prospects who did not respond to your initial outreach professionally.
-            </p>
-</div>
-<div class="mt-6 pt-3 border-t border-outline-variant font-mono text-[10px] text-on-surface-variant uppercase">
-            UNIT 3 // INCLUDED
-          </div>
-</div>
-<!-- Tactic 31 -->
-<div class="border-2 border-outline bg-surface-container-lowest p-6 flex flex-col justify-between relative shadow-[4px_4px_0px_#1a1a1a]">
-<div class="flex flex-col gap-3">
-<span class="font-mono text-xs font-bold text-secondary">TACTIC #31</span>
-<h3 class="font-headline font-bold text-lg uppercase leading-snug">Reverse-Engineering The JD</h3>
-<p class="font-body text-xs text-on-surface-variant leading-relaxed">
-              Translating buzzword-stuffed requirements into the VP’s real, unwritten urgent bottlenecks—and handing them the solution in your initial opening line.
-            </p>
-</div>
-<div class="mt-6 pt-3 border-t border-outline-variant font-mono text-[10px] text-on-surface-variant uppercase">
-            UNIT 4 // INCLUDED
-          </div>
-</div>
-</div>
-</div>
-</section>
-<!-- AUDIENCE QUALIFICATION SECTION -->
-<section class="w-full border-b-2 border-outline bg-surface-container-high py-20 px-6 lg:px-12">
-<div class="max-w-7xl mx-auto flex flex-col gap-12">
-<div class="flex flex-col gap-2 text-center items-center">
-<span class="font-mono text-xs font-bold uppercase tracking-widest text-secondary">FILTERING PROTOCOL</span>
-<h2 class="font-headline font-bold text-3xl sm:text-5xl uppercase tracking-tight">Who This Is For vs. Who Should Walk Away.</h2>
-<p class="font-body text-sm sm:text-base text-on-surface-variant max-w-lg">We only want committed operators using this manual.</p>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-<!-- THIS IS FOR YOU -->
-<div class="bg-surface border-2 border-outline p-6 sm:p-8 flex flex-col gap-6 shadow-[4px_4px_0px_#1a1a1a]">
-<div class="flex items-center gap-3 border-b-2 border-outline pb-4">
-<span class="material-symbols-outlined text-secondary text-2xl font-bold">check_circle</span>
-<h3 class="font-headline font-bold text-xl uppercase tracking-tight">THIS IS FOR YOU IF:</h3>
-</div>
-<ul class="space-y-4 font-mono text-xs sm:text-sm text-on-surface">
-<li class="flex items-start gap-3">
-<span class="text-secondary font-bold">[✓]</span>
-<span>You keep applying online and receiving total silence or automated rejection emails.</span>
-</li>
-<li class="flex items-start gap-3">
-<span class="text-secondary font-bold">[✓]</span>
-<span>You have real aptitude, drive, or coding/design/analysis ability but zero prestigious brand logos on your CV.</span>
-</li>
-<li class="flex items-start gap-3">
-<span class="text-secondary font-bold">[✓]</span>
-<span>You refuse to gamble your future and college tuition on automated HR software filters.</span>
-</li>
-<li class="flex items-start gap-3">
-<span class="text-secondary font-bold">[✓]</span>
-<span>You want a systematic, repeatable outbound system you can run every semester.</span>
-</li>
-</ul>
-</div>
-<!-- THIS IS NOT FOR YOU -->
-<div class="bg-surface-container-highest border-2 border-outline p-6 sm:p-8 flex flex-col gap-6 shadow-[4px_4px_0px_#1a1a1a]">
-<div class="flex items-center gap-3 border-b-2 border-outline pb-4">
-<span class="material-symbols-outlined text-error text-2xl font-bold">cancel</span>
-<h3 class="font-headline font-bold text-xl uppercase tracking-tight">THIS IS NOT FOR YOU IF:</h3>
-</div>
-<ul class="space-y-4 font-mono text-xs sm:text-sm text-on-surface-variant">
-<li class="flex items-start gap-3">
-<span class="text-error font-bold">[x]</span>
-<span>You want magical overnight offers without actually doing outreach or building real projects.</span>
-</li>
-<li class="flex items-start gap-3">
-<span class="text-error font-bold">[x]</span>
-<span>You expect sending 3 emails to land you a $60/hr corporate role.</span>
-</li>
-<li class="flex items-start gap-3">
-<span class="text-error font-bold">[x]</span>
-<span>You are seeking fraudulent hacks: fake degrees, fabricated experience, or forged references.</span>
-</li>
-<li class="flex items-start gap-3">
-<span class="text-error font-bold">[x]</span>
-<span>You are easily offended by proactive, direct professional communication.</span>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</section>
-<!-- ETHICAL MANIFESTO -->
-<section class="w-full border-b-2 border-outline bg-surface py-20 px-6 lg:px-12">
-<div class="max-w-4xl mx-auto bg-primary text-on-primary border-2 border-outline p-8 sm:p-12 shadow-[8px_8px_0px_#e63b2e] relative overflow-hidden">
-<div class="relative z-10 flex flex-col gap-6">
-<div class="inline-flex items-center gap-2 text-primary-container font-mono text-xs uppercase font-bold tracking-widest">
-<span class="material-symbols-outlined text-base">shield</span>
-<span>05 // ETHICAL BOUNDARIES</span>
-</div>
-<h2 class="font-headline font-bold text-3xl sm:text-4xl uppercase tracking-tight text-on-primary">
-          "Unethical" Doesn't Mean Illegal. <br class="hidden sm:inline"/>Here is Where We Stand.
-        </h2>
-<div class="space-y-4 font-body text-sm sm:text-base text-surface-container leading-relaxed">
-<p>
-            Conventional career advice says: <span class="text-primary-container font-bold">"Wait quietly in line, fill out this form, and wait your turn."</span> Breaking that passive social convention feels unfair to complacent competitors who prefer waiting. That is why they label it "unethical."
-          </p>
-<p>
-            In reality, reaching out directly to an executive with tailored value, solving an actual problem they have right now, is the most legitimate and respectful act of professional meritocracy that exists.
-          </p>
-</div>
-<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4 border-t border-neutral-700">
-<div class="p-4 bg-inverse-surface border border-error/50">
-<h3 class="font-mono text-xs font-bold text-error uppercase mb-2">WE STRICTLY CONDEMN:</h3>
-<p class="font-mono text-xs text-neutral-400 leading-normal">
-              No falsified credentials. No fake degrees. No fraudulent portfolio claims. No automated spam bot attacks. No unethical impersonation.
-            </p>
-</div>
-<div class="p-4 bg-inverse-surface border border-primary-container/50">
-<h3 class="font-mono text-xs font-bold text-primary-container uppercase mb-2">WHAT WE TEACH:</h3>
-<p class="font-mono text-xs text-neutral-300 leading-normal">
-              Aggressive direct outreach, public company intelligence, custom value demonstrations, and relentless, professional execution.
-            </p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- PRICING & OFFER BREAKDOWN -->
-<section class="w-full border-b-2 border-outline bg-surface-container py-16 px-6 lg:px-12" id="checkout">
-<div class="max-w-5xl mx-auto">
-<div class="w-full bg-surface border-2 border-outline p-6 sm:p-10 shadow-[8px_8px_0px_#1a1a1a] flex flex-col gap-7">
-<div class="flex flex-col gap-3">
-<span class="font-mono text-xs font-bold uppercase tracking-widest text-secondary">06 // DIRECT ENROLLMENT</span>
-<h2 class="font-headline font-bold text-4xl sm:text-6xl uppercase tracking-tight leading-none">Claim The Cheat Code</h2>
-<p class="font-body text-sm sm:text-base text-on-surface-variant max-w-xl leading-relaxed">Stop applying like everyone else.<br/>Get the complete system for finding, contacting,<br class="hidden sm:block"/> and pursuing internship opportunities strategically.</p>
-</div>
-<div class="flex flex-col sm:flex-row sm:items-end justify-between gap-5 border-y-2 border-outline py-5">
-<div>
-<span class="font-mono text-xs font-bold uppercase tracking-widest text-secondary">PRICE:</span>
-<div class="font-headline font-bold text-7xl sm:text-8xl leading-none text-secondary">₹99</div>
-</div>
-<span class="font-mono text-xs sm:text-sm font-bold text-on-surface uppercase">ONE-TIME PAYMENT // LIFETIME ACCESS</span>
-</div>
-<div class="flex flex-col gap-4">
-<h3 class="font-mono text-xs font-bold uppercase tracking-widest text-secondary">WHAT YOU GET</h3>
-<div class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-3 font-mono text-xs sm:text-sm">
-<div class="flex items-start gap-3"><span class="text-secondary font-bold">☑</span><span>Complete Internship Cheat Code Field Manual</span></div>
-<div class="flex items-start gap-3"><span class="text-secondary font-bold">☑</span><span>100-Company Tracking Framework</span></div>
-<div class="flex items-start gap-3"><span class="text-secondary font-bold">☑</span><span>Resume &amp; Portfolio Pre-Flight Scorecard</span></div>
-<div class="flex items-start gap-3"><span class="text-secondary font-bold">☑</span><span>8 Outreach &amp; Referral Templates</span></div>
-<div class="flex items-start gap-3"><span class="text-secondary font-bold">☑</span><span>AI Job Description Deconstructor Prompts</span></div>
-<div class="flex items-start gap-3"><span class="text-secondary font-bold">☑</span><span>Future Version Updates — FREE</span></div>
-</div>
-</div>
-<div class="border-t-2 border-outline pt-6 flex flex-col gap-5">
-<div class="font-headline font-bold text-xl sm:text-2xl uppercase tracking-tight text-center sm:text-left">FIND → CONTACT → FOLLOW UP → CONVERT</div>
-<p class="font-body text-sm text-on-surface-variant leading-relaxed max-w-2xl">This isn't another generic resume guide.<br/>It's a practical system for turning internship hunting<br class="hidden sm:block"/> into a repeatable pipeline.</p>
-<div class="w-full bg-primary-container border-2 border-outline px-4 py-4 flex flex-col items-center gap-3 shadow-[4px_4px_0px_#1a1a1a]">
-<div class="font-headline font-bold text-base sm:text-lg uppercase tracking-wide text-center">CLAIM THE CHEAT CODE — ₹99</div>
-<form class="w-full flex justify-center [&_iframe]:!w-full [&_iframe]:max-w-full">
-<script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_Ta3xTiwtQSw5P5" async></script>
-</form>
-</div>
-<div class="font-mono text-[11px] text-on-surface-variant text-center uppercase">Instant Digital Access · One-Time Payment · Lifetime Access</div>
-</div>
-<div class="border-t border-outline-variant pt-4 flex flex-col gap-2">
-<div class="font-mono text-xs font-bold uppercase text-secondary">100% LEGAL // 0% FAKE EXPERIENCE</div>
-<p class="font-mono text-[11px] text-on-surface-variant leading-relaxed">No fake credentials. No fabricated projects.<br/>No impersonation. No hacking.</p>
-</div>
-</div>
-</div>
-</section>
-<!-- FAQ SECTION -->
-<section class="w-full border-b-2 border-outline bg-surface py-20 px-6 lg:px-12" id="faq">
-<div class="max-w-4xl mx-auto flex flex-col gap-10">
-<div class="flex flex-col gap-2">
-<span class="font-mono text-xs font-bold uppercase tracking-widest text-secondary">07 // FREQUENTLY ASKED QUESTIONS</span>
-<h2 class="font-headline font-bold text-3xl sm:text-5xl uppercase tracking-tight">Direct Answers. No Spin.</h2>
-</div>
-<div class="flex flex-col gap-4">
-<!-- Q1 -->
-<div class="border-2 border-outline bg-surface-container-low p-6 transition-all">
-<h3 class="font-headline font-bold text-base sm:text-lg uppercase mb-2 flex items-center justify-between">
-<span>Is this only for students with prior tech experience?</span>
-<span class="text-secondary font-mono text-sm">[01]</span>
-</h3>
-<p class="font-body text-xs sm:text-sm text-on-surface-variant leading-relaxed">
-            No. Unit 01 specifically addresses candidates with zero previous brand logos. It covers ways to construct proof of work, including code repositories, teardown case studies, and live data audits.
-          </p>
-</div>
-<!-- Q2 -->
-<div class="border-2 border-outline bg-surface-container-low p-6 transition-all">
-<h3 class="font-headline font-bold text-base sm:text-lg uppercase mb-2 flex items-center justify-between">
-<span>Does it actually teach cold emailing from scratch?</span>
-<span class="text-secondary font-mono text-sm">[02]</span>
-</h3>
-<p class="font-body text-xs sm:text-sm text-on-surface-variant leading-relaxed">
-            Yes. It covers subject lines, finding professional contact information with verification tools, send timing, and a three-touch follow-up cadence.
-          </p>
-</div>
-<!-- Q3 -->
-<div class="border-2 border-outline bg-surface-container-low p-6 transition-all">
-<h3 class="font-headline font-bold text-base sm:text-lg uppercase mb-2 flex items-center justify-between">
-<span>Does this guarantee an internship?</span>
-<span class="text-secondary font-mono text-sm">[03]</span>
-</h3>
-<p class="font-body text-xs sm:text-sm text-on-surface-variant leading-relaxed">
-            No. Anyone promising a guaranteed job or internship is running a scam. This manual gives you a practical, systematic approach to preparing, targeting, and reaching out for internship opportunities.
-          </p>
-</div>
-<!-- Q4 -->
-<div class="border-2 border-outline bg-surface-container-low p-6 transition-all">
-<h3 class="font-headline font-bold text-base sm:text-lg uppercase mb-2 flex items-center justify-between">
-<span>Will contacting leaders directly get me blacklisted?</span>
-<span class="text-secondary font-mono text-sm">[04]</span>
-</h3>
-<p class="font-body text-xs sm:text-sm text-on-surface-variant leading-relaxed">
-            No. Founders and engineering VPs universally despise generic copy-paste spam, but they actively hunt for proactive, high-agency talent who demonstrate clear problem-solving ability before ever asking for compensation.
-          </p>
-</div>
-<!-- Q5 -->
-<div class="border-2 border-outline bg-surface-container-low p-6 transition-all">
-<h3 class="font-headline font-bold text-base sm:text-lg uppercase mb-2 flex items-center justify-between">
-<span>What format is the manual delivered in?</span>
-<span class="text-secondary font-mono text-sm">[05]</span>
-</h3>
-<p class="font-body text-xs sm:text-sm text-on-surface-variant leading-relaxed">
-            Immediately upon checkout, you receive secure direct-download access to the PDF Field Manual, the 100-company tracking framework, and eight outreach and referral templates.
-          </p>
-</div>
-</div>
-</div>
-</section>
-<!-- FINAL CALL TO ACTION -->
-<section class="w-full bg-primary text-on-primary py-24 px-6 lg:px-12 relative overflow-hidden">
-<div class="max-w-5xl mx-auto flex flex-col items-center text-center gap-8 relative z-10">
-<div class="font-mono text-xs text-primary-container font-bold uppercase tracking-widest">
-        FINAL FIELD DIRECTIVE
       </div>
-<h2 class="font-headline font-bold text-4xl sm:text-6xl md:text-7xl uppercase tracking-tighter leading-none">
-        STOP APPLYING LIKE EVERYONE ELSE.
-      </h2>
-<p class="font-body text-base sm:text-lg text-surface-container-highest max-w-2xl leading-relaxed">
-        You already know how to click "Easy Apply" and wait in silence. Now learn how to build an outbound internship pipeline designed to reach the people who can make hiring decisions.
-      </p>
-<a class="inline-flex items-center justify-center gap-3 bg-secondary text-white border-2 border-outline px-10 py-5 font-headline font-bold text-base sm:text-lg uppercase tracking-wider shadow-[4px_4px_0px_#ffffff] hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[2px_2px_0px_#ffffff] active:translate-x-[4px] active:translate-y-[4px] active:shadow-none transition-all" href="#checkout">
-<span>CLAIM THE CHEAT CODE — ₹99</span>
-<span class="material-symbols-outlined">bolt</span>
-</a>
-<div class="flex items-center gap-6 font-mono text-xs text-neutral-400">
-<span>37 Tactics</span>
-<span>•</span>
-<span>Immediate Download</span>
-</div>
-</div>
-</section>
-</div>
-<script>
-  function handlePurchase() {
-    alert("System initialized. Redirecting to 256-bit encrypted checkout gateway...");
-  }
-</script></main><footer class="w-full bg-surface-container-high border-t-2 border-outline py-16"><div class="max-w-7xl mx-auto px-6 lg:px-12"><div class="grid grid-cols-1 md:grid-cols-12 gap-12 pb-12 border-b border-outline-variant"><div class="md:col-span-5 space-y-4"><div class="font-headline font-bold text-lg tracking-tight uppercase text-on-surface">THE INTERNSHIP CHEAT CODE</div><p class="text-xs text-on-surface-variant leading-relaxed max-w-sm">An unapologetic, tactical execution blueprint for securing top-tier offers without traditional pedigree or nepotism. Engineered through strict structural analysis.</p></div><div class="md:col-span-4 space-y-3"><div class="font-headline font-bold text-xs uppercase tracking-widest text-on-surface">Ethical Architecture &amp; Integrity</div><p class="text-xs text-on-surface-variant leading-relaxed">This field manual outlines strategic positioning, narrative construction, and outreach mechanics. We advocate meritocratic performance optimization, transparent communication, and rigorous preparation.</p></div><div class="md:col-span-3 space-y-3"><div class="font-headline font-bold text-xs uppercase tracking-widest text-on-surface">Direct Access</div><nav class="flex flex-col space-y-2"><a class="text-xs text-on-surface-variant hover:text-on-surface transition-colors font-headline uppercase" data-path="the-problem" href="#problem">The Problem</a><a class="text-xs text-on-surface-variant hover:text-on-surface transition-colors font-headline uppercase" data-path="the-system" href="#system">The System</a><a class="text-xs text-on-surface-variant hover:text-on-surface transition-colors font-headline uppercase" data-path="whats-inside" href="#inside">Curriculum</a><a class="text-xs text-on-surface-variant hover:text-on-surface transition-colors font-headline uppercase" data-path="terms-and-disclaimer" href="#legal">Terms &amp; Disclaimer</a></nav></div></div><div class="pt-8 flex flex-col md:flex-row items-center justify-between gap-4"><p class="text-xs text-on-surface-variant">© 2025 THE INTERNSHIP CHEAT CODE. ALL RIGHTS RESERVED.</p><div class="flex items-center gap-6"><a class="text-xs text-on-surface-variant hover:text-on-surface uppercase" data-path="terms-and-disclaimer" href="#legal">Disclaimer</a><a class="text-xs text-on-surface-variant hover:text-on-surface uppercase" data-path="terms-and-disclaimer" href="#privacy">Privacy Protocol</a><a class="text-xs text-on-surface-variant hover:text-on-surface uppercase" data-path="terms-and-disclaimer" href="#terms">Terms of Manual</a></div></div></div></footer></body></html>
+    </header>
+    <main class="w-full pt-20 bg-background">
+      <div
+        class="flex flex-col w-full text-on-surface bg-background select-none"
+      >
+        <!-- HERO SECTION -->
+        <section
+          class="relative w-full border-b-2 border-outline bg-surface pt-12 pb-20 px-6 lg:px-12 overflow-hidden"
+        >
+          <div
+            class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center"
+          >
+            <!-- Text Column -->
+            <div class="lg:col-span-7 flex flex-col items-start gap-6 z-10">
+              <div
+                class="inline-flex items-center gap-2 bg-primary text-on-primary px-3 py-1 font-mono text-xs tracking-widest uppercase border border-outline"
+              >
+                <span
+                  class="w-2 h-2 rounded-full bg-secondary animate-ping"
+                ></span>
+                <span>RESTRICTED DISTRIBUTION // FIELD MANUAL V3.4</span>
+              </div>
+              <h1
+                class="font-headline font-bold text-5xl sm:text-6xl xl:text-7xl leading-[0.95] tracking-tighter uppercase text-on-surface"
+              >
+                Stop waiting for internships. <br />
+                <span
+                  class="text-secondary underline decoration-4 underline-offset-8"
+                  >Go take one.</span
+                >
+              </h1>
+              <p
+                class="font-body text-base sm:text-lg text-on-surface-variant max-w-2xl leading-relaxed"
+              >
+                How to Get an Internship — The Unethical (but 100% Legal) Way. A
+                practical outbound system to move beyond crowded application
+                portals, reach decision-makers, and pursue internship
+                opportunities strategically.
+              </p>
+              <div
+                class="flex flex-col sm:flex-row items-start sm:items-center gap-4 w-full pt-2"
+              >
+                <a
+                  class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-primary-container text-on-primary-container border-2 border-outline px-8 py-4 font-headline font-bold text-sm tracking-wider uppercase shadow-[4px_4px_0px_#1a1a1a] hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[2px_2px_0px_#1a1a1a] active:translate-x-[4px] active:translate-y-[4px] active:shadow-none transition-all"
+                  href="#checkout"
+                >
+                  <span>GET THE INTERNSHIP CHEAT CODE</span>
+                  <span class="material-symbols-outlined text-lg"
+                    >arrow_forward</span
+                  >
+                </a>
+                <div
+                  class="flex items-center gap-2 font-mono text-xs text-on-surface-variant"
+                >
+                  <span class="material-symbols-outlined text-sm text-secondary"
+                    >lock</span
+                  >
+                  <span>Instant Digital Download · 5 Units · 37 Tactics</span>
+                </div>
+              </div>
+              <!-- Metric strip -->
+              <div
+                class="w-full grid grid-cols-2 sm:grid-cols-4 gap-3 pt-6 border-t border-outline-variant mt-4"
+              >
+                <div class="flex flex-col">
+                  <span class="font-headline font-bold text-xl text-secondary"
+                    >0%</span
+                  >
+                  <span
+                    class="font-mono text-[11px] text-on-surface-variant uppercase"
+                    >ATS Gambling</span
+                  >
+                </div>
+                <div class="flex flex-col">
+                  <span class="font-headline font-bold text-xl text-on-surface"
+                    >100%</span
+                  >
+                  <span
+                    class="font-mono text-[11px] text-on-surface-variant uppercase"
+                    >Legal &amp; Ethical</span
+                  >
+                </div>
+                <div class="flex flex-col">
+                  <span class="font-headline font-bold text-xl text-primary"
+                    >37</span
+                  >
+                  <span
+                    class="font-mono text-[11px] text-on-surface-variant uppercase"
+                    >Battle Tactics</span
+                  >
+                </div>
+                <div class="flex flex-col">
+                  <span class="font-headline font-bold text-xl text-secondary"
+                    >100-CO</span
+                  >
+                  <span
+                    class="font-mono text-[11px] text-on-surface-variant uppercase"
+                    >Tracking Framework</span
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- Hero Book Visual Column -->
+            <div
+              class="lg:col-span-5 flex flex-col items-center justify-center relative"
+            >
+              <div
+                class="relative w-full max-w-sm sm:max-w-md bg-inverse-surface p-4 border-2 border-outline shadow-[8px_8px_0px_#1a1a1a]"
+              >
+                <div
+                  class="absolute -top-3 -right-3 bg-secondary text-white font-mono text-[10px] font-bold px-2 py-1 uppercase border border-outline tracking-wider z-20"
+                >
+                  OFFICIAL MANUAL // PRINT SPEC
+                </div>
+                <div
+                  class="relative w-full aspect-[3/4] overflow-hidden bg-surface-container-high border border-outline-variant flex items-center justify-center"
+                >
+                  <img
+                    alt="The Internship Cheat Code Field Manual Cover"
+                    class="w-full h-full object-cover object-center filter contrast-110"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuAFz8ccLIAwU7LdBifSDbQlwjRFJ4rKfdt-lXXqI0EL-ZWk-P5T1nuSBIqcLsZ51ONiyu8pFEugSScqXBv1bybjnjSwUnjAQUWd5XctegBaUGG52SF9Ud2wOp6PRBceVJ07xxTe23GQkvkR-iEO-e49ezfKZtUOXp_2CjZLsaQ8TuvRxfF7fIgnWWQpgHeL2tUVi12ddum2oS5KEKwsot2S8xBZuz31nr-YsZH7-KD7JMXmum77vKQ"
+                  />
+                </div>
+                <div
+                  class="mt-4 p-3 bg-surface-container-highest border border-outline text-on-surface flex flex-col gap-1.5"
+                >
+                  <div
+                    class="flex items-center justify-between font-mono text-[11px] font-bold uppercase"
+                  >
+                    <span class="text-secondary">SYSTEM DELIVERABLE</span>
+                    <span class="text-on-surface-variant"
+                      >SERIAL: #ICC-2025</span
+                    >
+                  </div>
+                  <p class="font-mono text-xs leading-tight text-on-surface">
+                    Field Manual + 8 Outreach &amp; Referral Templates +
+                    100-Company Tracking Framework + AI JD Deconstructor.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- PROBLEM CONTRAST SECTION -->
+        <section
+          class="w-full border-b-2 border-outline bg-surface-container py-20 px-6 lg:px-12"
+          id="problem"
+        >
+          <div class="max-w-7xl mx-auto flex flex-col gap-12">
+            <div class="flex flex-col gap-3">
+              <span
+                class="font-mono text-xs font-bold uppercase tracking-widest text-secondary"
+                >01 // THE APPLICANT TRAP</span
+              >
+              <h2
+                class="font-headline font-bold text-3xl sm:text-5xl uppercase tracking-tight"
+              >
+                The Modern Application Queue is a Graveyard.
+              </h2>
+              <p
+                class="font-body text-sm sm:text-base text-on-surface-variant max-w-2xl"
+              >
+                Applying everywhere and praying isn't a strategy. It's a lottery
+                ticket designed for you to lose.
+              </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <!-- Conventional Broken -->
+              <div
+                class="bg-surface-container-lowest border-2 border-outline p-6 sm:p-8 flex flex-col justify-between shadow-[4px_4px_0px_#1a1a1a]"
+              >
+                <div class="flex flex-col gap-4">
+                  <div
+                    class="inline-flex items-center gap-2 text-error font-mono text-xs uppercase font-bold tracking-widest"
+                  >
+                    <span class="material-symbols-outlined text-base"
+                      >cancel</span
+                    >
+                    <span>THE BROKEN CONVENTIONAL METHOD</span>
+                  </div>
+                  <ul
+                    class="space-y-4 font-mono text-xs sm:text-sm text-on-surface-variant"
+                  >
+                    <li class="flex items-start gap-3">
+                      <span class="text-error font-bold font-headline"
+                        >[x]</span
+                      >
+                      <span
+                        >Click "Easy Apply" on LinkedIn alongside a crowded pool
+                        of similar junior applicants.</span
+                      >
+                    </li>
+                    <li class="flex items-start gap-3">
+                      <span class="text-error font-bold font-headline"
+                        >[x]</span
+                      >
+                      <span
+                        >Resume hits an automated ATS keyword wall where keyword
+                        matching can limit visibility.</span
+                      >
+                    </li>
+                    <li class="flex items-start gap-3">
+                      <span class="text-error font-bold font-headline"
+                        >[x]</span
+                      >
+                      <span
+                        >Sit completely ghosted for 6–8 weeks with zero feedback
+                        or insight.</span
+                      >
+                    </li>
+                    <li class="flex items-start gap-3">
+                      <span class="text-error font-bold font-headline"
+                        >[x]</span
+                      >
+                      <span
+                        >Panic compounds as graduation nears, repeating the same
+                        losing lottery.</span
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  class="mt-8 p-3 bg-secondary-container text-on-secondary-container border border-secondary font-mono text-xs font-bold uppercase"
+                >
+                  RESULT: Uncertain Visibility · Months of Wasted Effort
+                </div>
+              </div>
+              <!-- Cheat Code Method -->
+              <div
+                class="bg-surface border-2 border-outline p-6 sm:p-8 flex flex-col justify-between shadow-[4px_4px_0px_#ffcc00]"
+              >
+                <div class="flex flex-col gap-4">
+                  <div
+                    class="inline-flex items-center gap-2 text-primary font-mono text-xs uppercase font-bold tracking-widest"
+                  >
+                    <span
+                      class="material-symbols-outlined text-base text-secondary"
+                      >verified</span
+                    >
+                    <span class="text-secondary font-bold"
+                      >THE CHEAT CODE PLAYBOOK</span
+                    >
+                  </div>
+                  <ul
+                    class="space-y-4 font-mono text-xs sm:text-sm text-on-surface"
+                  >
+                    <li class="flex items-start gap-3">
+                      <span class="text-secondary font-bold font-headline"
+                        >[&gt;]</span
+                      >
+                      <span
+                        >Dissect company organizational charts and isolate
+                        high-autonomy engineering &amp; product leaders.</span
+                      >
+                    </li>
+                    <li class="flex items-start gap-3">
+                      <span class="text-secondary font-bold font-headline"
+                        >[&gt;]</span
+                      >
+                      <span
+                        >Engineer undeniable proof-of-work (micro-audits, pull
+                        requests, prototype fixes) before speaking.</span
+                      >
+                    </li>
+                    <li class="flex items-start gap-3">
+                      <span class="text-secondary font-bold font-headline"
+                        >[&gt;]</span
+                      >
+                      <span
+                        >Deploy high-relevance, multi-touch cold email cadences
+                        to professional addresses for founders and hiring
+                        managers.</span
+                      >
+                    </li>
+                    <li class="flex items-start gap-3">
+                      <span class="text-secondary font-bold font-headline"
+                        >[&gt;]</span
+                      >
+                      <span
+                        >Propose a tailored project that can help create an
+                        opportunity before a formal role is advertised.</span
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  class="mt-8 p-3 bg-primary-container text-on-primary-container border border-outline font-mono text-xs font-bold uppercase"
+                >
+                  RESULT: A Direct, Structured Outreach Process
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- 5-PHASE SYSTEM SECTION -->
+        <section
+          class="w-full border-b-2 border-outline bg-surface py-20 px-6 lg:px-12"
+          id="system"
+        >
+          <div class="max-w-7xl mx-auto flex flex-col gap-12">
+            <div class="flex flex-col gap-2">
+              <span
+                class="font-mono text-xs font-bold uppercase tracking-widest text-secondary"
+                >02 // THE PROTOCOL</span
+              >
+              <h2
+                class="font-headline font-bold text-3xl sm:text-5xl uppercase tracking-tight"
+              >
+                The 5-Phase Acquisition Framework.
+              </h2>
+              <p
+                class="font-body text-sm sm:text-base text-on-surface-variant max-w-xl"
+              >
+                Every stage is designed to help you prepare, target companies,
+                and pursue opportunities strategically.
+              </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
+              <!-- Step 1 -->
+              <div
+                class="border-2 border-outline bg-surface-container-low p-5 flex flex-col justify-between hover:bg-surface-container transition-colors"
+              >
+                <div>
+                  <span
+                    class="font-headline font-bold text-4xl text-outline-variant block mb-4"
+                    >01</span
+                  >
+                  <h3
+                    class="font-headline font-bold text-sm uppercase tracking-wider mb-2"
+                  >
+                    Build Your Weapon
+                  </h3>
+                  <p
+                    class="font-body text-xs text-on-surface-variant leading-relaxed"
+                  >
+                    Resume, LinkedIn, GitHub, and digital footprint refined for
+                    a clear initial recruiter review.
+                  </p>
+                </div>
+                <div
+                  class="pt-6 font-mono text-[10px] text-secondary font-bold uppercase"
+                >
+                  Phase 1: Proof Base
+                </div>
+              </div>
+              <!-- Step 2 -->
+              <div
+                class="border-2 border-outline bg-surface-container-low p-5 flex flex-col justify-between hover:bg-surface-container transition-colors"
+              >
+                <div>
+                  <span
+                    class="font-headline font-bold text-4xl text-outline-variant block mb-4"
+                    >02</span
+                  >
+                  <h3
+                    class="font-headline font-bold text-sm uppercase tracking-wider mb-2"
+                  >
+                    Find The Alpha
+                  </h3>
+                  <p
+                    class="font-body text-xs text-on-surface-variant leading-relaxed"
+                  >
+                    Target companies with relevant growth signals and connect
+                    directly with founders or team leads, including those
+                    without public internship listings.
+                  </p>
+                </div>
+                <div
+                  class="pt-6 font-mono text-[10px] text-secondary font-bold uppercase"
+                >
+                  Phase 2: Target Recon
+                </div>
+              </div>
+              <!-- Step 3 -->
+              <div
+                class="border-2 border-outline bg-surface-container-low p-5 flex flex-col justify-between hover:bg-surface-container transition-colors"
+              >
+                <div>
+                  <span
+                    class="font-headline font-bold text-4xl text-outline-variant block mb-4"
+                    >03</span
+                  >
+                  <h3
+                    class="font-headline font-bold text-sm uppercase tracking-wider mb-2"
+                  >
+                    Bypass The Queue
+                  </h3>
+                  <p
+                    class="font-body text-xs text-on-surface-variant leading-relaxed"
+                  >
+                    Multi-channel cold email engines, Twitter/X executive
+                    engagement, and engineered warm internal referrals.
+                  </p>
+                </div>
+                <div
+                  class="pt-6 font-mono text-[10px] text-secondary font-bold uppercase"
+                >
+                  Phase 3: Deep Penetration
+                </div>
+              </div>
+              <!-- Step 4 -->
+              <div
+                class="border-2 border-outline bg-surface-container-low p-5 flex flex-col justify-between hover:bg-surface-container transition-colors"
+              >
+                <div>
+                  <span
+                    class="font-headline font-bold text-4xl text-outline-variant block mb-4"
+                    >04</span
+                  >
+                  <h3
+                    class="font-headline font-bold text-sm uppercase tracking-wider mb-2"
+                  >
+                    Game The JD
+                  </h3>
+                  <p
+                    class="font-body text-xs text-on-surface-variant leading-relaxed"
+                  >
+                    Deconstruct job spec pain points via AI, shipping custom
+                    proof-of-work modules before they ask.
+                  </p>
+                </div>
+                <div
+                  class="pt-6 font-mono text-[10px] text-secondary font-bold uppercase"
+                >
+                  Phase 4: Value Inversion
+                </div>
+              </div>
+              <!-- Step 5 -->
+              <div
+                class="border-2 border-outline bg-surface-container-low p-5 flex flex-col justify-between hover:bg-surface-container transition-colors"
+              >
+                <div>
+                  <span
+                    class="font-headline font-bold text-4xl text-outline-variant block mb-4"
+                    >05</span
+                  >
+                  <h3
+                    class="font-headline font-bold text-sm uppercase tracking-wider mb-2"
+                  >
+                    The Attack System
+                  </h3>
+                  <p
+                    class="font-body text-xs text-on-surface-variant leading-relaxed"
+                  >
+                    The 100-company tracking method, structured follow-up
+                    cadence, and interview preparation guidance.
+                  </p>
+                </div>
+                <div
+                  class="pt-6 font-mono text-[10px] text-secondary font-bold uppercase"
+                >
+                  Phase 5: Scale Execution
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- WHAT'S INSIDE / BENTO ARSENAL SECTION -->
+        <section
+          class="w-full border-b-2 border-outline bg-surface-container-low py-20 px-6 lg:px-12"
+          id="inside"
+        >
+          <div class="max-w-7xl mx-auto flex flex-col gap-12">
+            <div
+              class="flex flex-col sm:flex-row sm:items-end justify-between gap-4"
+            >
+              <div class="flex flex-col gap-2">
+                <span
+                  class="font-mono text-xs font-bold uppercase tracking-widest text-secondary"
+                  >03 // COMPLETE SPECIFICATIONS</span
+                >
+                <h2
+                  class="font-headline font-bold text-3xl sm:text-5xl uppercase tracking-tight"
+                >
+                  Everything Included. Zero Fluff.
+                </h2>
+              </div>
+              <div
+                class="font-mono text-xs text-on-surface-variant uppercase border-b border-outline pb-1"
+              >
+                ALL-IN-ONE OPERATING SUITE
+              </div>
+            </div>
+            <!-- Bento Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+              <!-- 5 Units -->
+              <div
+                class="md:col-span-8 bg-surface border-2 border-outline p-6 sm:p-8 flex flex-col justify-between shadow-[4px_4px_0px_#1a1a1a]"
+              >
+                <div>
+                  <span
+                    class="font-mono text-xs text-secondary font-bold uppercase tracking-wider block mb-2"
+                    >CORE PLAYBOOK</span
+                  >
+                  <h3 class="font-headline font-bold text-2xl uppercase mb-3">
+                    5 Comprehensive Core Units
+                  </h3>
+                  <p
+                    class="font-body text-sm text-on-surface-variant leading-relaxed mb-6"
+                  >
+                    Dense, tactical documentation containing line-by-line
+                    tactics, organizational charts, email templates, teardowns,
+                    and interview objection destruction scripts. No fluff, no
+                    motivation speeches.
+                  </p>
+                  <div
+                    class="grid grid-cols-1 sm:grid-cols-2 gap-3 font-mono text-xs text-on-surface"
+                  >
+                    <div
+                      class="p-2.5 bg-surface-container border border-outline flex items-center gap-2"
+                    >
+                      <span class="w-1.5 h-1.5 bg-secondary"></span>
+                      <span>Unit 1: The Tactical Weapon Setup</span>
+                    </div>
+                    <div
+                      class="p-2.5 bg-surface-container border border-outline flex items-center gap-2"
+                    >
+                      <span class="w-1.5 h-1.5 bg-secondary"></span>
+                      <span>Unit 2: Stealth Company Sourcing</span>
+                    </div>
+                    <div
+                      class="p-2.5 bg-surface-container border border-outline flex items-center gap-2"
+                    >
+                      <span class="w-1.5 h-1.5 bg-secondary"></span>
+                      <span>Unit 3: Executive Inbox Penetration</span>
+                    </div>
+                    <div
+                      class="p-2.5 bg-surface-container border border-outline flex items-center gap-2"
+                    >
+                      <span class="w-1.5 h-1.5 bg-secondary"></span>
+                      <span>Unit 4: Engineering The Pre-Hire Proof</span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="mt-6 pt-4 border-t border-outline-variant font-mono text-xs text-on-surface-variant flex items-center justify-between"
+                >
+                  <span>FORMAT: PDF FIELD MANUAL</span>
+                  <span class="text-secondary font-bold">INCLUDED</span>
+                </div>
+              </div>
+              <!-- 37 Tactics Card -->
+              <div
+                class="md:col-span-4 bg-primary text-on-primary border-2 border-outline p-6 sm:p-8 flex flex-col justify-between shadow-[4px_4px_0px_#e63b2e]"
+              >
+                <div>
+                  <span
+                    class="font-mono text-xs text-primary-container font-bold uppercase tracking-wider block mb-2"
+                    >FIELD MANUAL</span
+                  >
+                  <h3 class="font-headline font-bold text-2xl uppercase mb-3">
+                    37 Battle Tactics
+                  </h3>
+                  <p
+                    class="font-body text-xs text-surface-container-highest leading-relaxed mb-4"
+                  >
+                    Discrete, granular playbooks for practical situations:
+                    follow-up cadence timing, handling "we have no open budget",
+                    and preparing for internship conversations.
+                  </p>
+                </div>
+                <div
+                  class="p-3 bg-inverse-surface/40 border border-neutral-700 font-mono text-xs text-secondary-fixed"
+                >
+                  Practical guidance for researching companies, demonstrating
+                  your skills, and reaching decision-makers.
+                </div>
+              </div>
+              <!-- Copy-Paste Arsenal -->
+              <div
+                class="md:col-span-4 bg-surface border-2 border-outline p-6 flex flex-col justify-between shadow-[4px_4px_0px_#1a1a1a]"
+              >
+                <div>
+                  <span
+                    class="font-mono text-xs text-secondary font-bold uppercase block mb-1"
+                    >SWIPE FILE</span
+                  >
+                  <h4 class="font-headline font-bold text-lg uppercase mb-2">
+                    8 Outreach &amp; Referral Templates
+                  </h4>
+                  <p
+                    class="font-body text-xs text-on-surface-variant leading-relaxed"
+                  >
+                    Practical templates for cold email, LinkedIn outreach,
+                    follow-ups, and referral requests.
+                  </p>
+                </div>
+                <div
+                  class="mt-4 font-mono text-[11px] text-on-surface-variant uppercase"
+                >
+                  Includes follow-up intervals &amp; subject lines
+                </div>
+              </div>
+              <!-- AI Prompt Vault -->
+              <div
+                class="md:col-span-4 bg-surface border-2 border-outline p-6 flex flex-col justify-between shadow-[4px_4px_0px_#1a1a1a]"
+              >
+                <div>
+                  <span
+                    class="font-mono text-xs text-tertiary font-bold uppercase block mb-1"
+                    >AI AUTOMATION</span
+                  >
+                  <h4 class="font-headline font-bold text-lg uppercase mb-2">
+                    The JD Deconstructor Prompts
+                  </h4>
+                  <p
+                    class="font-body text-xs text-on-surface-variant leading-relaxed"
+                  >
+                    Custom-engineered system prompts for ChatGPT &amp; Claude
+                    that extract hidden founder pain points and write tailored
+                    proof proposals in minutes.
+                  </p>
+                </div>
+                <div
+                  class="mt-4 font-mono text-[11px] text-on-surface-variant uppercase"
+                >
+                  Pre-calibrated prompt chains
+                </div>
+              </div>
+              <!-- 100-Company Tracking Framework -->
+              <div
+                class="md:col-span-4 bg-surface border-2 border-outline p-6 flex flex-col justify-between shadow-[4px_4px_0px_#1a1a1a]"
+              >
+                <div>
+                  <span
+                    class="font-mono text-xs text-secondary font-bold uppercase block mb-1"
+                    >WORKFLOW ARCHITECTURE</span
+                  >
+                  <h4 class="font-headline font-bold text-lg uppercase mb-2">
+                    The 100-Company Tracking Framework
+                  </h4>
+                  <p
+                    class="font-body text-xs text-on-surface-variant leading-relaxed"
+                  >
+                    A 100-company tracking framework you can recreate in Google
+                    Sheets or Excel to organize targets, outreach, follow-ups,
+                    and interview progress.
+                  </p>
+                </div>
+                <div
+                  class="mt-4 font-mono text-[11px] text-on-surface-variant uppercase"
+                >
+                  Recreate in Google Sheets or Excel
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- SAMPLE TACTICS PREVIEW -->
+        <section
+          class="w-full border-b-2 border-outline bg-surface py-20 px-6 lg:px-12"
+        >
+          <div class="max-w-7xl mx-auto flex flex-col gap-12">
+            <div class="flex flex-col gap-2">
+              <span
+                class="font-mono text-xs font-bold uppercase tracking-widest text-secondary"
+                >04 // TACTICAL PREVIEWS</span
+              >
+              <h2
+                class="font-headline font-bold text-3xl sm:text-5xl uppercase tracking-tight"
+              >
+                Declassified Tactics: A Look Inside.
+              </h2>
+              <p
+                class="font-body text-sm sm:text-base text-on-surface-variant max-w-xl"
+              >
+                Every tactic is stripped of fluff. Just raw mechanics, tactical
+                context, and execution steps.
+              </p>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              <!-- Tactic 07 -->
+              <div
+                class="border-2 border-outline bg-surface-container-lowest p-6 flex flex-col justify-between relative shadow-[4px_4px_0px_#1a1a1a]"
+              >
+                <div class="flex flex-col gap-3">
+                  <span class="font-mono text-xs font-bold text-secondary"
+                    >TACTIC #07</span
+                  >
+                  <h3
+                    class="font-headline font-bold text-lg uppercase leading-snug"
+                  >
+                    The 100-Company Method
+                  </h3>
+                  <p
+                    class="font-body text-xs text-on-surface-variant leading-relaxed"
+                  >
+                    How company-first targeting can uncover relevant
+                    organizations and help you identify the right people to
+                    contact.
+                  </p>
+                </div>
+                <div
+                  class="mt-6 pt-3 border-t border-outline-variant font-mono text-[10px] text-on-surface-variant uppercase"
+                >
+                  UNIT 2 // INCLUDED
+                </div>
+              </div>
+              <!-- Tactic 14 -->
+              <div
+                class="border-2 border-outline bg-surface-container-lowest p-6 flex flex-col justify-between relative shadow-[4px_4px_0px_#1a1a1a]"
+              >
+                <div class="flex flex-col gap-3">
+                  <span class="font-mono text-xs font-bold text-secondary"
+                    >TACTIC #14</span
+                  >
+                  <h3
+                    class="font-headline font-bold text-lg uppercase leading-snug"
+                  >
+                    The Company-First Inversion
+                  </h3>
+                  <p
+                    class="font-body text-xs text-on-surface-variant leading-relaxed"
+                  >
+                    How pitching a bespoke 3-slide teardown or prototype before
+                    a formal role is advertised can help you stand out with
+                    relevant proof of work.
+                  </p>
+                </div>
+                <div
+                  class="mt-6 pt-3 border-t border-outline-variant font-mono text-[10px] text-on-surface-variant uppercase"
+                >
+                  UNIT 4 // INCLUDED
+                </div>
+              </div>
+              <!-- Tactic 22 -->
+              <div
+                class="border-2 border-outline bg-surface-container-lowest p-6 flex flex-col justify-between relative shadow-[4px_4px_0px_#1a1a1a]"
+              >
+                <div class="flex flex-col gap-3">
+                  <span class="font-mono text-xs font-bold text-secondary"
+                    >TACTIC #22</span
+                  >
+                  <h3
+                    class="font-headline font-bold text-lg uppercase leading-snug"
+                  >
+                    The Three-Touch Follow-Up
+                  </h3>
+                  <p
+                    class="font-body text-xs text-on-surface-variant leading-relaxed"
+                  >
+                    A structured follow-up cadence for reconnecting with
+                    prospects who did not respond to your initial outreach
+                    professionally.
+                  </p>
+                </div>
+                <div
+                  class="mt-6 pt-3 border-t border-outline-variant font-mono text-[10px] text-on-surface-variant uppercase"
+                >
+                  UNIT 3 // INCLUDED
+                </div>
+              </div>
+              <!-- Tactic 31 -->
+              <div
+                class="border-2 border-outline bg-surface-container-lowest p-6 flex flex-col justify-between relative shadow-[4px_4px_0px_#1a1a1a]"
+              >
+                <div class="flex flex-col gap-3">
+                  <span class="font-mono text-xs font-bold text-secondary"
+                    >TACTIC #31</span
+                  >
+                  <h3
+                    class="font-headline font-bold text-lg uppercase leading-snug"
+                  >
+                    Reverse-Engineering The JD
+                  </h3>
+                  <p
+                    class="font-body text-xs text-on-surface-variant leading-relaxed"
+                  >
+                    Translating buzzword-stuffed requirements into the VP’s
+                    real, unwritten urgent bottlenecks—and handing them the
+                    solution in your initial opening line.
+                  </p>
+                </div>
+                <div
+                  class="mt-6 pt-3 border-t border-outline-variant font-mono text-[10px] text-on-surface-variant uppercase"
+                >
+                  UNIT 4 // INCLUDED
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- AUDIENCE QUALIFICATION SECTION -->
+        <section
+          class="w-full border-b-2 border-outline bg-surface-container-high py-20 px-6 lg:px-12"
+        >
+          <div class="max-w-7xl mx-auto flex flex-col gap-12">
+            <div class="flex flex-col gap-2 text-center items-center">
+              <span
+                class="font-mono text-xs font-bold uppercase tracking-widest text-secondary"
+                >FILTERING PROTOCOL</span
+              >
+              <h2
+                class="font-headline font-bold text-3xl sm:text-5xl uppercase tracking-tight"
+              >
+                Who This Is For vs. Who Should Walk Away.
+              </h2>
+              <p
+                class="font-body text-sm sm:text-base text-on-surface-variant max-w-lg"
+              >
+                We only want committed operators using this manual.
+              </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <!-- THIS IS FOR YOU -->
+              <div
+                class="bg-surface border-2 border-outline p-6 sm:p-8 flex flex-col gap-6 shadow-[4px_4px_0px_#1a1a1a]"
+              >
+                <div
+                  class="flex items-center gap-3 border-b-2 border-outline pb-4"
+                >
+                  <span
+                    class="material-symbols-outlined text-secondary text-2xl font-bold"
+                    >check_circle</span
+                  >
+                  <h3
+                    class="font-headline font-bold text-xl uppercase tracking-tight"
+                  >
+                    THIS IS FOR YOU IF:
+                  </h3>
+                </div>
+                <ul
+                  class="space-y-4 font-mono text-xs sm:text-sm text-on-surface"
+                >
+                  <li class="flex items-start gap-3">
+                    <span class="text-secondary font-bold">[✓]</span>
+                    <span
+                      >You keep applying online and receiving total silence or
+                      automated rejection emails.</span
+                    >
+                  </li>
+                  <li class="flex items-start gap-3">
+                    <span class="text-secondary font-bold">[✓]</span>
+                    <span
+                      >You have real aptitude, drive, or coding/design/analysis
+                      ability but zero prestigious brand logos on your CV.</span
+                    >
+                  </li>
+                  <li class="flex items-start gap-3">
+                    <span class="text-secondary font-bold">[✓]</span>
+                    <span
+                      >You refuse to gamble your future and college tuition on
+                      automated HR software filters.</span
+                    >
+                  </li>
+                  <li class="flex items-start gap-3">
+                    <span class="text-secondary font-bold">[✓]</span>
+                    <span
+                      >You want a systematic, repeatable outbound system you can
+                      run every semester.</span
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- THIS IS NOT FOR YOU -->
+              <div
+                class="bg-surface-container-highest border-2 border-outline p-6 sm:p-8 flex flex-col gap-6 shadow-[4px_4px_0px_#1a1a1a]"
+              >
+                <div
+                  class="flex items-center gap-3 border-b-2 border-outline pb-4"
+                >
+                  <span
+                    class="material-symbols-outlined text-error text-2xl font-bold"
+                    >cancel</span
+                  >
+                  <h3
+                    class="font-headline font-bold text-xl uppercase tracking-tight"
+                  >
+                    THIS IS NOT FOR YOU IF:
+                  </h3>
+                </div>
+                <ul
+                  class="space-y-4 font-mono text-xs sm:text-sm text-on-surface-variant"
+                >
+                  <li class="flex items-start gap-3">
+                    <span class="text-error font-bold">[x]</span>
+                    <span
+                      >You want magical overnight offers without actually doing
+                      outreach or building real projects.</span
+                    >
+                  </li>
+                  <li class="flex items-start gap-3">
+                    <span class="text-error font-bold">[x]</span>
+                    <span
+                      >You expect sending 3 emails to land you a $60/hr
+                      corporate role.</span
+                    >
+                  </li>
+                  <li class="flex items-start gap-3">
+                    <span class="text-error font-bold">[x]</span>
+                    <span
+                      >You are seeking fraudulent hacks: fake degrees,
+                      fabricated experience, or forged references.</span
+                    >
+                  </li>
+                  <li class="flex items-start gap-3">
+                    <span class="text-error font-bold">[x]</span>
+                    <span
+                      >You are easily offended by proactive, direct professional
+                      communication.</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ETHICAL MANIFESTO -->
+        <section
+          class="w-full border-b-2 border-outline bg-surface py-20 px-6 lg:px-12"
+        >
+          <div
+            class="max-w-4xl mx-auto bg-primary text-on-primary border-2 border-outline p-8 sm:p-12 shadow-[8px_8px_0px_#e63b2e] relative overflow-hidden"
+          >
+            <div class="relative z-10 flex flex-col gap-6">
+              <div
+                class="inline-flex items-center gap-2 text-primary-container font-mono text-xs uppercase font-bold tracking-widest"
+              >
+                <span class="material-symbols-outlined text-base">shield</span>
+                <span>05 // ETHICAL BOUNDARIES</span>
+              </div>
+              <h2
+                class="font-headline font-bold text-3xl sm:text-4xl uppercase tracking-tight text-on-primary"
+              >
+                "Unethical" Doesn't Mean Illegal.
+                <br class="hidden sm:inline" />Here is Where We Stand.
+              </h2>
+              <div
+                class="space-y-4 font-body text-sm sm:text-base text-surface-container leading-relaxed"
+              >
+                <p>
+                  Conventional career advice says:
+                  <span class="text-primary-container font-bold"
+                    >"Wait quietly in line, fill out this form, and wait your
+                    turn."</span
+                  >
+                  Breaking that passive social convention feels unfair to
+                  complacent competitors who prefer waiting. That is why they
+                  label it "unethical."
+                </p>
+                <p>
+                  In reality, reaching out directly to an executive with
+                  tailored value, solving an actual problem they have right now,
+                  is the most legitimate and respectful act of professional
+                  meritocracy that exists.
+                </p>
+              </div>
+              <div
+                class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4 border-t border-neutral-700"
+              >
+                <div class="p-4 bg-inverse-surface border border-error/50">
+                  <h3
+                    class="font-mono text-xs font-bold text-error uppercase mb-2"
+                  >
+                    WE STRICTLY CONDEMN:
+                  </h3>
+                  <p class="font-mono text-xs text-neutral-400 leading-normal">
+                    No falsified credentials. No fake degrees. No fraudulent
+                    portfolio claims. No automated spam bot attacks. No
+                    unethical impersonation.
+                  </p>
+                </div>
+                <div
+                  class="p-4 bg-inverse-surface border border-primary-container/50"
+                >
+                  <h3
+                    class="font-mono text-xs font-bold text-primary-container uppercase mb-2"
+                  >
+                    WHAT WE TEACH:
+                  </h3>
+                  <p class="font-mono text-xs text-neutral-300 leading-normal">
+                    Aggressive direct outreach, public company intelligence,
+                    custom value demonstrations, and relentless, professional
+                    execution.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- PRICING & OFFER BREAKDOWN -->
+        <section
+          class="w-full border-b-2 border-outline bg-surface-container py-16 px-6 lg:px-12"
+          id="checkout"
+        >
+          <div class="max-w-5xl mx-auto">
+            <div
+              class="w-full bg-surface border-2 border-outline p-6 sm:p-10 shadow-[8px_8px_0px_#1a1a1a] flex flex-col gap-7"
+            >
+              <div class="flex flex-col gap-3">
+                <span
+                  class="font-mono text-xs font-bold uppercase tracking-widest text-secondary"
+                  >06 // DIRECT ENROLLMENT</span
+                >
+                <h2
+                  class="font-headline font-bold text-4xl sm:text-6xl uppercase tracking-tight leading-none"
+                >
+                  Claim The Cheat Code
+                </h2>
+                <p
+                  class="font-body text-sm sm:text-base text-on-surface-variant max-w-xl leading-relaxed"
+                >
+                  Stop applying like everyone else.<br />Get the complete system
+                  for finding, contacting,<br class="hidden sm:block" />
+                  and pursuing internship opportunities strategically.
+                </p>
+              </div>
+              <div
+                class="flex flex-col sm:flex-row sm:items-end justify-between gap-5 border-y-2 border-outline py-5"
+              >
+                <div>
+                  <span
+                    class="font-mono text-xs font-bold uppercase tracking-widest text-secondary"
+                    >PRICE:</span
+                  >
+                  <div
+                    class="font-headline font-bold text-7xl sm:text-8xl leading-none text-secondary"
+                  >
+                    ₹99
+                  </div>
+                </div>
+                <span
+                  class="font-mono text-xs sm:text-sm font-bold text-on-surface uppercase"
+                  >ONE-TIME PAYMENT // LIFETIME ACCESS</span
+                >
+              </div>
+              <div class="flex flex-col gap-4">
+                <h3
+                  class="font-mono text-xs font-bold uppercase tracking-widest text-secondary"
+                >
+                  WHAT YOU GET
+                </h3>
+                <div
+                  class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-3 font-mono text-xs sm:text-sm"
+                >
+                  <div class="flex items-start gap-3">
+                    <span class="text-secondary font-bold">☑</span
+                    ><span>Complete Internship Cheat Code Field Manual</span>
+                  </div>
+                  <div class="flex items-start gap-3">
+                    <span class="text-secondary font-bold">☑</span
+                    ><span>100-Company Tracking Framework</span>
+                  </div>
+                  <div class="flex items-start gap-3">
+                    <span class="text-secondary font-bold">☑</span
+                    ><span>Resume &amp; Portfolio Pre-Flight Scorecard</span>
+                  </div>
+                  <div class="flex items-start gap-3">
+                    <span class="text-secondary font-bold">☑</span
+                    ><span>8 Outreach &amp; Referral Templates</span>
+                  </div>
+                  <div class="flex items-start gap-3">
+                    <span class="text-secondary font-bold">☑</span
+                    ><span>AI Job Description Deconstructor Prompts</span>
+                  </div>
+                  <div class="flex items-start gap-3">
+                    <span class="text-secondary font-bold">☑</span
+                    ><span>Future Version Updates — FREE</span>
+                  </div>
+                </div>
+              </div>
+              <div class="border-t-2 border-outline pt-6 flex flex-col gap-5">
+                <div
+                  class="font-headline font-bold text-xl sm:text-2xl uppercase tracking-tight text-center sm:text-left"
+                >
+                  FIND → CONTACT → FOLLOW UP → CONVERT
+                </div>
+                <p
+                  class="font-body text-sm text-on-surface-variant leading-relaxed max-w-2xl"
+                >
+                  This isn't another generic resume guide.<br />It's a practical
+                  system for turning internship hunting<br
+                    class="hidden sm:block"
+                  />
+                  into a repeatable pipeline.
+                </p>
+                <div
+                  class="w-full bg-primary-container border-2 border-outline px-4 py-4 flex flex-col items-center gap-3 shadow-[4px_4px_0px_#1a1a1a]"
+                >
+                  <div
+                    class="font-headline font-bold text-base sm:text-lg uppercase tracking-wide text-center"
+                  >
+                    CLAIM THE CHEAT CODE — ₹99
+                  </div>
+                  <form
+                    class="w-full flex justify-center [&_iframe]:!w-full [&_iframe]:max-w-full"
+                  >
+                    <script
+                      src="https://checkout.razorpay.com/v1/payment-button.js"
+                      data-payment_button_id="pl_Ta3xTiwtQSw5P5"
+                      async
+                    ></script>
+                  </form>
+                </div>
+                <div
+                  class="font-mono text-[11px] text-on-surface-variant text-center uppercase"
+                >
+                  Instant Digital Access · One-Time Payment · Lifetime Access
+                </div>
+              </div>
+              <div
+                class="border-t border-outline-variant pt-4 flex flex-col gap-2"
+              >
+                <div
+                  class="font-mono text-xs font-bold uppercase text-secondary"
+                >
+                  100% LEGAL // 0% FAKE EXPERIENCE
+                </div>
+                <p
+                  class="font-mono text-[11px] text-on-surface-variant leading-relaxed"
+                >
+                  No fake credentials. No fabricated projects.<br />No
+                  impersonation. No hacking.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- FAQ SECTION -->
+        <section
+          class="w-full border-b-2 border-outline bg-surface py-20 px-6 lg:px-12"
+          id="faq"
+        >
+          <div class="max-w-4xl mx-auto flex flex-col gap-10">
+            <div class="flex flex-col gap-2">
+              <span
+                class="font-mono text-xs font-bold uppercase tracking-widest text-secondary"
+                >07 // FREQUENTLY ASKED QUESTIONS</span
+              >
+              <h2
+                class="font-headline font-bold text-3xl sm:text-5xl uppercase tracking-tight"
+              >
+                Direct Answers. No Spin.
+              </h2>
+            </div>
+            <div class="flex flex-col gap-4">
+              <!-- Q1 -->
+              <div
+                class="border-2 border-outline bg-surface-container-low p-6 transition-all"
+              >
+                <h3
+                  class="font-headline font-bold text-base sm:text-lg uppercase mb-2 flex items-center justify-between"
+                >
+                  <span
+                    >Is this only for students with prior tech experience?</span
+                  >
+                  <span class="text-secondary font-mono text-sm">[01]</span>
+                </h3>
+                <p
+                  class="font-body text-xs sm:text-sm text-on-surface-variant leading-relaxed"
+                >
+                  No. Unit 01 specifically addresses candidates with zero
+                  previous brand logos. It covers ways to construct proof of
+                  work, including code repositories, teardown case studies, and
+                  live data audits.
+                </p>
+              </div>
+              <!-- Q2 -->
+              <div
+                class="border-2 border-outline bg-surface-container-low p-6 transition-all"
+              >
+                <h3
+                  class="font-headline font-bold text-base sm:text-lg uppercase mb-2 flex items-center justify-between"
+                >
+                  <span
+                    >Does it actually teach cold emailing from scratch?</span
+                  >
+                  <span class="text-secondary font-mono text-sm">[02]</span>
+                </h3>
+                <p
+                  class="font-body text-xs sm:text-sm text-on-surface-variant leading-relaxed"
+                >
+                  Yes. It covers subject lines, finding professional contact
+                  information with verification tools, send timing, and a
+                  three-touch follow-up cadence.
+                </p>
+              </div>
+              <!-- Q3 -->
+              <div
+                class="border-2 border-outline bg-surface-container-low p-6 transition-all"
+              >
+                <h3
+                  class="font-headline font-bold text-base sm:text-lg uppercase mb-2 flex items-center justify-between"
+                >
+                  <span>Does this guarantee an internship?</span>
+                  <span class="text-secondary font-mono text-sm">[03]</span>
+                </h3>
+                <p
+                  class="font-body text-xs sm:text-sm text-on-surface-variant leading-relaxed"
+                >
+                  No. Anyone promising a guaranteed job or internship is running
+                  a scam. This manual gives you a practical, systematic approach
+                  to preparing, targeting, and reaching out for internship
+                  opportunities.
+                </p>
+              </div>
+              <!-- Q4 -->
+              <div
+                class="border-2 border-outline bg-surface-container-low p-6 transition-all"
+              >
+                <h3
+                  class="font-headline font-bold text-base sm:text-lg uppercase mb-2 flex items-center justify-between"
+                >
+                  <span
+                    >Will contacting leaders directly get me blacklisted?</span
+                  >
+                  <span class="text-secondary font-mono text-sm">[04]</span>
+                </h3>
+                <p
+                  class="font-body text-xs sm:text-sm text-on-surface-variant leading-relaxed"
+                >
+                  No. Founders and engineering VPs universally despise generic
+                  copy-paste spam, but they actively hunt for proactive,
+                  high-agency talent who demonstrate clear problem-solving
+                  ability before ever asking for compensation.
+                </p>
+              </div>
+              <!-- Q5 -->
+              <div
+                class="border-2 border-outline bg-surface-container-low p-6 transition-all"
+              >
+                <h3
+                  class="font-headline font-bold text-base sm:text-lg uppercase mb-2 flex items-center justify-between"
+                >
+                  <span>What format is the manual delivered in?</span>
+                  <span class="text-secondary font-mono text-sm">[05]</span>
+                </h3>
+                <p
+                  class="font-body text-xs sm:text-sm text-on-surface-variant leading-relaxed"
+                >
+                  Immediately upon checkout, you receive secure direct-download
+                  access to the PDF Field Manual, the 100-company tracking
+                  framework, and eight outreach and referral templates.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- FINAL CALL TO ACTION -->
+        <section
+          class="w-full bg-primary text-on-primary py-24 px-6 lg:px-12 relative overflow-hidden"
+        >
+          <div
+            class="max-w-5xl mx-auto flex flex-col items-center text-center gap-8 relative z-10"
+          >
+            <div
+              class="font-mono text-xs text-primary-container font-bold uppercase tracking-widest"
+            >
+              FINAL FIELD DIRECTIVE
+            </div>
+            <h2
+              class="font-headline font-bold text-4xl sm:text-6xl md:text-7xl uppercase tracking-tighter leading-none"
+            >
+              STOP APPLYING LIKE EVERYONE ELSE.
+            </h2>
+            <p
+              class="font-body text-base sm:text-lg text-surface-container-highest max-w-2xl leading-relaxed"
+            >
+              You already know how to click "Easy Apply" and wait in silence.
+              Now learn how to build an outbound internship pipeline designed to
+              reach the people who can make hiring decisions.
+            </p>
+            <a
+              class="inline-flex items-center justify-center gap-3 bg-secondary text-white border-2 border-outline px-10 py-5 font-headline font-bold text-base sm:text-lg uppercase tracking-wider shadow-[4px_4px_0px_#ffffff] hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[2px_2px_0px_#ffffff] active:translate-x-[4px] active:translate-y-[4px] active:shadow-none transition-all"
+              href="#checkout"
+            >
+              <span>CLAIM THE CHEAT CODE — ₹99</span>
+              <span class="material-symbols-outlined">bolt</span>
+            </a>
+            <div
+              class="flex items-center gap-6 font-mono text-xs text-neutral-400"
+            >
+              <span>37 Tactics</span>
+              <span>•</span>
+              <span>Immediate Download</span>
+            </div>
+          </div>
+        </section>
+      </div>
+      <script>
+        function handlePurchase() {
+          alert(
+            "System initialized. Redirecting to 256-bit encrypted checkout gateway...",
+          );
+        }
+      </script>
+    </main>
+    <footer
+      class="w-full bg-surface-container-high border-t-2 border-outline py-16"
+    >
+      <div class="max-w-7xl mx-auto px-6 lg:px-12">
+        <div
+          class="grid grid-cols-1 md:grid-cols-12 gap-12 pb-12 border-b border-outline-variant"
+        >
+          <div class="md:col-span-5 space-y-4">
+            <div
+              class="font-headline font-bold text-lg tracking-tight uppercase text-on-surface"
+            >
+              THE INTERNSHIP CHEAT CODE
+            </div>
+            <p class="text-xs text-on-surface-variant leading-relaxed max-w-sm">
+              An unapologetic, tactical execution blueprint for securing
+              top-tier offers without traditional pedigree or nepotism.
+              Engineered through strict structural analysis.
+            </p>
+          </div>
+          <div class="md:col-span-4 space-y-3">
+            <div
+              class="font-headline font-bold text-xs uppercase tracking-widest text-on-surface"
+            >
+              Ethical Architecture &amp; Integrity
+            </div>
+            <p class="text-xs text-on-surface-variant leading-relaxed">
+              This field manual outlines strategic positioning, narrative
+              construction, and outreach mechanics. We advocate meritocratic
+              performance optimization, transparent communication, and rigorous
+              preparation.
+            </p>
+          </div>
+          <div class="md:col-span-3 space-y-3">
+            <div
+              class="font-headline font-bold text-xs uppercase tracking-widest text-on-surface"
+            >
+              Direct Access
+            </div>
+            <nav class="flex flex-col space-y-2">
+              <a
+                class="text-xs text-on-surface-variant hover:text-on-surface transition-colors font-headline uppercase"
+                data-path="the-problem"
+                href="#problem"
+                >The Problem</a
+              ><a
+                class="text-xs text-on-surface-variant hover:text-on-surface transition-colors font-headline uppercase"
+                data-path="the-system"
+                href="#system"
+                >The System</a
+              ><a
+                class="text-xs text-on-surface-variant hover:text-on-surface transition-colors font-headline uppercase"
+                data-path="whats-inside"
+                href="#inside"
+                >Curriculum</a
+              ><a
+                class="text-xs text-on-surface-variant hover:text-on-surface transition-colors font-headline uppercase"
+                data-path="terms-and-disclaimer"
+                href="#legal"
+                >Terms &amp; Disclaimer</a
+              >
+            </nav>
+          </div>
+        </div>
+        <div
+          class="pt-8 flex flex-col md:flex-row items-center justify-between gap-4"
+        >
+          <p class="text-xs text-on-surface-variant">
+            © 2025 THE INTERNSHIP CHEAT CODE. ALL RIGHTS RESERVED.
+          </p>
+          <div class="flex items-center gap-6">
+            <a
+              class="text-xs text-on-surface-variant hover:text-on-surface uppercase"
+              data-path="terms-and-disclaimer"
+              href="#legal"
+              >Disclaimer</a
+            ><a
+              class="text-xs text-on-surface-variant hover:text-on-surface uppercase"
+              data-path="terms-and-disclaimer"
+              href="#privacy"
+              >Privacy Protocol</a
+            ><a
+              class="text-xs text-on-surface-variant hover:text-on-surface uppercase"
+              data-path="terms-and-disclaimer"
+              href="#terms"
+              >Terms of Manual</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
